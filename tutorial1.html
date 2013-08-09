@@ -1,0 +1,53 @@
+<html>
+
+  <head>
+    
+    <style>
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="explanation">
+  
+      <h1> Getting Started </h1>
+
+      <p> If you are here, it presumably means that you want to learn how to use the leap to make cool stuff. If that is not the case, either start wanting that, or leave, because its what we are about to start doing. </p>
+
+      <p> We will be using javascript as our language of choice, mostly so we can do things like live coding, and because javascript is the language of the internet, and the internet is the FUTURE. Although most of the actual Leap API calls are relatively language agnostic, the tools we will be using as specifically browser based. In addition to learning more about the Leap API I sincereley hope that you learn more than just how to use the leap, but also more about creative web tools in general.</p>
+
+      <p> The First thing we will be learning about is how to create a leap controller. This may seem a bit trivial, but the journey of 1,000 miles begins with connecting your controller. </p>
+
+      <p> We have to start by setting up a canvas to draw on. For the first set of tutorials we will be working pretty exclusively with canvas. If you have never used or even heard of canvas before, thats ok! I'll try to explain as much as I can, and anything that I can't, I'll make sure there is access to some good resources. If you want to learn more about canvas itself, I would check out this phenomenal set of tutorials: <a href="http://www.html5canvastutorials.com/tutorials/html5-canvas-tutorials-introduction/" target="_blank"> HTML 5 Canvas Tutorials </a>
+
+      <p> If we are going to be using canvas, we better create a canvas we can you. A canvas element is pretty much exactly what the name describes. It is a place where you can draw things. So to start off, lets add the canvas element to the body of the document, like so: 
+      
+      <xmp class="codeSnippet"><canvas id="canvas"></canvas></xmp>
+
+      Much easier than going to a store and having to shell out your hard earned dollars, right?</p>
+
+      <p> This is the only dom element we actually have to deal with, and indeed if we wanted to, we could create and add the element within the javascript itself. I am choosing not to, simply because it is easier to style it for the sake of this tutorial. After the canvas element, we need to make sure that we include the leap script, like this:
+      <xmp class="codeSnippet"> <script src="//js.leapmotion.com/0.2.0/leap.min.js"></script></xmp>
+
+      By letting leapmotion.com deal with the hosting, you don't have to worry about hosting your own file, and you can also 
+      <h2></h2>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="//js.leapmotion.com/0.2.0/leap.min.js"></script>
+    <script>
+
+      var canvas = document.getElementById('canvas');
+      console.log('demo');
+
+    </script>
+
+
+    </script>
+
+  </body>
+
+</html>
